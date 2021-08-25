@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+    <h1>Formulario</h1>
+<form action="formulario.php" method="GET">
+<label> <h3>Nombre</h3></label>
+    <input type="text" id="nombre" name="nombre"/>
+    <br>
+<label><h3> Apellido</h3> </label>
+    <input type="text" id="apellido" name="apellido"/>
+    <br>
+<label><h3> Fecha de nacimiento</h3></label>
+   <input type="date" id="born" name="born"/>
+   <br>
+<label><h3> Si usted es +18, ingresar su cedula o pasaporte </h3> </label>
+   <input type="radio" id="c" name="dni" value="cedula"> Cedula <br>
+   <input type="radio" id="p" name="dni" value="pasaporte"> Pasaporte <br>
+   <input type="text" id="n" name="n" placeholder="00.000.000">
+<br>
+<label> <h3> Genero </h3> </label>
+<br>
+  <input type="radio" id="m" name="genero" value="masculino"> Masculino <br>
+  <input type="radio" id="f" name="genero" value="femenino"> Femenino <br>
+  <input type="radio" id="nb" name="genero" value="nobi"> No binario <br>
+  <input type="radio" id="pnd" name="genero" value="node"> Prefiero no decir <br>
+  <br>
+  <label> <h3> Telefono </h3> </label>
+  <br>
+    <input type="radio" id="movil" name="telefono" value="Fijo"> Fijo<br>
+    <input type="radio" id="fijo" name="telefono" value="Movil"> Movil <br> 
+    <input type="text" id="numero" name="numero" placeholder="0000-000-00-00">   
+    
+  <h1><b>Trabajos</b></h1>
+    <br>
+    <label><h3>Nombre de la empresa</h3></label>
+    <input type="text" id="ne" name="ne"  >
+    <br>
+    <label><h3>Fecha de inicio en la empresa</h3></label>
+    <input type="date" id="fecha" name="fecha"/>
+    <br>
+   <label><h3>Fecha de salida de la empresa</h3></label>
+    <input type="date" id="salida" name="salida"/>
+    <br>
+   <label><h3>Puesto ocupado</h3></label>
+   <input type="text" id="cargo" name="cargo"/>
+   <br>
+   <label><h3> Descripcion del trabajo realizado</h3></label>
+   <textarea name="descripcion" rows="10" cols="40">Has una breve Descripcion</textarea>
+  <br>
+  <h1><b>Educacion</b></h1>
+  <br>
+  <label><h3> Nombre de la institucion</h3></label>
+  <input type="text" id="inst" name="institucion">
+  <br>
+  <label><h3>Fecha de ingreso</h3></label>
+    <input type="date" id="ingreso" name="ingreso"/>
+     <br>
+  <label><h3>Fecha de egreso</h3></label>
+    <input type="date" id="egreso" name="egreso"/>
+    <br>
+  <label><h3>Nivel educativo obtenido </h3></label>
+  <input type="text" id="nivel" name="nivel">
+  <br>
+  <input type="submit" value="enviar">
+</form>
+</body>    
+</html>
