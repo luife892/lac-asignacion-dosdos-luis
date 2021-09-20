@@ -10,10 +10,11 @@ $file = json_decode(file_get_contents('experiencia.json'));
 <body>
 <h2>Curriculum</h2> 
 <a href="index.html"><input type="submit" value="registro"> </a>
+ <a href="data.php"><input type="button" value="data"> </a>           
             <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th>#</th>
+                        <th>id</th>
                         <th>Empresa</th>
                         <th>Fecha de inicio</th>
                         <th>Fecha de salida</th>
