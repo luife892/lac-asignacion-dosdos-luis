@@ -37,6 +37,7 @@ function edad($nacimiento){
 <body>
 <h2>Data</h2> 
 <a href="curriculum.php"><input type="submit" value="curriculum"> </a>
+<a href="index.html"><input type="submit" value="registro"> </a>
 </html>
             <table class="table table-hover">
                 <thead>
