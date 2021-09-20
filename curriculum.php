@@ -30,7 +30,7 @@ $file = json_decode(file_get_contents('experiencia.json'));
                             <td><?= $reg->nombreempresa ?></td>
                             <td><?= $reg->inicio ?></td>
                             <td><?= $reg->salida ?></td>
-                            <td><?= $reg->Puesto ?> </td>
+                            <td><?= $reg->ocupado ?> </td>
                             <td><?= $reg->descripcion?></td></td>
                             </tr>
                     </tr> 
