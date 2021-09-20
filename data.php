@@ -3,11 +3,11 @@
 $file = json_decode(file_get_contents('persona.json'));
 function telFormat($tel)
 {
-    $code = substr($tel->numero, 0, 4);
-    $first = substr($tel->numero, 4, 3);
-    $sec = substr($tel->numero, 7, 2);
-    $third = substr($tel->numero, 9, 2);
-    $tipo = $tel->tipo == 'M' ? 'Movil' : 'Fijo';
+    $code = substr($tlf->numero, 0, 4);
+    $first = substr($tlf->numero, 4, 3);
+    $sec = substr($tlf->numero, 7, 2);
+    $third = substr($tlf->numero, 9, 2);
+    $tipo = $tlf->tipo == 'Movil' ? 'Movil' : 'Fijo';
     return "$tipo $code-$first.$sec.$third";
 }
 
@@ -42,7 +42,7 @@ function edad($nacimiento){
             <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th>#</th>
+                        <th>Id</th>
                         <th>Nombre</th>
                         <th>DNI</th>
                         <th>Fecha de Nacimiento</th>
